@@ -1,5 +1,3 @@
-# KPhotoOrganizer
-
 About
 =====
 This is a script that I have developed to help with cataloguing my photo library after purchasing a new laptop with Windows. Surprisingly, there are no build in Windows 10 tools to automatically organize photos from a given folder into sub-folders, that reference the month and day of when the photo was taken.
