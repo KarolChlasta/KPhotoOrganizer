@@ -1,8 +1,10 @@
 About KPhotoOrganizer
 =====================
 This is a script that I developed to reorganize my photo library after purchasing a new laptop with Windows. Surprisingly, there were no build in Windows 10 tools to automatically organize photos from a given folder into sub-folders, that would reference the month and day of when the photo was taken in the folder name. This script is being run on Windows, and I have not tested in on anything else then below:
-* R version 3.6.3 (2020-02-29), platform: x86_64-w64-mingw32/x64 (64-bit), running under: Windows 10 x64 (build 18363)
-* other attached packages: [1] dplyr_1.0.0
+* R version 3.6.3 (2020-02-29)
+* Platform: x86_64-w64-mingw32/x64 (64-bit)
+* Running under: Windows 10 x64 (build 18363)
+* Other attached packages: [1] dplyr_1.0.0
 
 Contact Me
 ==========
