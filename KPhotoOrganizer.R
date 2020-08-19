@@ -28,12 +28,6 @@ for(w in Zdjecia) {
   l <- l + 1
 }
 
-
-# List subdirs in working directory
-# For each folder in the directory
-#   list files
-#   rename the files 
-
 ListaPodfolderow <- list.dirs(path = TuSaZdjecia, full.names = TRUE, recursive = TRUE)
 
 for(Folder in ListaPodfolderow) {
