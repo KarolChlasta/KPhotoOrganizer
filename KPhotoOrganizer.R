@@ -27,3 +27,19 @@ for(w in Zdjecia) {
   file.remove(paste(TuSaZdjecia, Zdjecia[l], sep="\\"))
   l <- l + 1
 }
+
+
+# List subdirs in working directory
+# For each folder in the directory
+#   list files
+#   rename the files 
+
+ListaPodfolderow <- list.dirs(path = TuSaZdjecia, full.names = TRUE, recursive = TRUE)
+
+for(Folder in ListaPodfolderow) {
+  ListaPlikow <- list.files(path = w, pattern = NULL, all.files = FALSE,
+             full.names = FALSE, recursive = FALSE,
+             ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)
+  setwd(Folder)
+  file.rename(paste0(ListaPlikow), paste0(1:length(ListaPlikow), ".jpg") )
+}
